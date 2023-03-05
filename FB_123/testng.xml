@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteFB">
+
+  <test thread-count="5"   name="Testchrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+    
+              <class name="testpack.FBTestNG1"/>
+      <class name="testpack.FBCreateAcc"/>
+     
+      <class name="testpack.TestNG2"/>               
+    </classes>
+    
+  </test> <!-- Testchrome -->
+  
+   <test thread-count="5"   name="TestFirefox">
+    <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+   
+      <class name="testpack.FBCreateAcc"/>
+     
+      <class name="testpack.TestNG2"/>
+                            
+    </classes>
+    
+  </test> <!-- TestFirefox -->
+</suite> <!-- SuiteFB -->
