@@ -7,6 +7,7 @@ public class java123 {
 		System.out.println("Bye");
 		System.out.println("goodday");
 		System.out.println("sleepwell");
+		System.out.println("dodo");
 	}
 
 }
