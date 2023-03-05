@@ -33,6 +33,9 @@ public class FBTestNG1 {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Anuj\\Documents\\auto\\chromedriver_win32\\chromedriver.exe");
 	      
 		 driver = new ChromeDriver ();
+		 driver = new ChromeDriver ();
+		 driver = new ChromeDriver ();
+		 driver = new ChromeDriver ();
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		 
@@ -42,6 +45,8 @@ public class FBTestNG1 {
 	
 	@BeforeMethod
 	public void openFacebook () {
+		 driver.get("https://www.facebook.com/");
+		 driver.get("https://www.facebook.com/");
 		 driver.get("https://www.facebook.com/");
 		
 	}
